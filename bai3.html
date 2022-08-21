@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 3</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    function giaiThua(n) {
+        let result = 1;
+        for (let i = n; i>0; i--) {
+            result = result * i;
+        }
+        return result;
+    }
+    let n= parseInt(prompt("Nhap so bat ki"));
+    let result = giaiThua(n);
+    document.write(result);
+</script>
